@@ -14,7 +14,7 @@ Search engine for ArcGIS resources. Find tips and tricks about advanced Google s
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-[![Screenshot](https://raw.githubusercontent.com/esri-es/arcgis-search/master/assets/img/ArcGIS%20Search.png)](https://esri-es.github.io/arcgis-search/)
+[![Screenshot](https://raw.githubusercontent.com/hhkaos/arcgis-search/master/assets/img/ArcGIS%20Search.png)](https://esri-es.github.io/arcgis-search/)
 
 ## Why we built this
 

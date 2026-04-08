@@ -17,7 +17,7 @@
 // }
 
 // chrome.omnibox.onInputEntered.addListener(function(text) {
-// 	navigate("https://esri-es.github.io/arcgis-search?search=" + text + "&amp;utm_source=chrome-extension");
+// 	navigate("https://www.rauljimenez.info/arcgis-search/?search=" + text + "&amp;utm_source=chrome-extension");
 // });
 
 // Copyright 2017 The Chromium Authors. All rights reserved.
@@ -27,7 +27,7 @@
 // This event is fired with the user accepts the input in the omnibox.
 chrome.omnibox.onInputEntered.addListener((text) => {
 	// Encode user input for special characters , / ? : @ & = + $ #
-	var newURL = "https://esri-es.github.io/arcgis-search?search=" + encodeURIComponent(text) + "&utm_source=chrome-extension";
+	var newURL = "https://www.rauljimenez.info/arcgis-search/?search=" + encodeURIComponent(text) + "&utm_source=chrome-extension";
 
 	chrome.tabs.create({ url: newURL });
 });
